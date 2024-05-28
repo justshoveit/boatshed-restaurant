@@ -201,10 +201,9 @@ nav ul li a:hover {
 }
 
 .featured-dishes {
-	margin: 40px 0;
+	margin: 0;
 	padding: 20px;
-	background: #f4f4f4;
-	border-radius: 10px;
+	background: var(--white);
 	color: var(--bodyText);
 	font-family: var(--fontHeading);
 }
@@ -241,32 +240,28 @@ nav ul li a:hover {
 	justify-content: space-between;
 	align-items: center;
 	padding: 50px;
-	background-color: #ffffff;
-	color: #1a1a1a;
+	background-color: var(--lightGrey);
+	color: var(--white);
 	flex-wrap: wrap;
 }
 
 .footer-container .footer-content p {
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+	font-family: var(--fontBold);
+	font-size: 24px;
 }
 
 .footer-container .footer-contact {
 	text-align: center;
+	margin-left: -150px;
 }
 
-.footer-container .footer-contact h2 {
-	font-family: 'Trend Slab One', sans-serif;
+.footer-container .footer-contact p {
+	font-family: var(--fontHeading);
 	font-size: 48px;
-	margin: 0;
-}
-
-.footer-container .footer-contact span {
-	display: block;
-	height: 2px;
-	width: 50px;
-	background-color: #e4a853;
-	margin: 10px auto;
+	/* nice bottom border yellowish */
+	border-bottom: 2px solid #e4a853;
+	border-radius: 10px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .footer-container .footer-arrow a {
@@ -287,7 +282,7 @@ nav ul li a:hover {
 	padding: 50px;
 	background-color: #1a1a1a;
 	color: #ffffff;
-	font-family: 'Roboto', sans-serif;
+	font-family: var(--font);
 	flex-wrap: wrap;
 }
 
