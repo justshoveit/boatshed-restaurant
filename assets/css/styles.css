@@ -294,6 +294,21 @@ nav ul li a:hover {
 	border-radius: 10px;
 }
 
+.footer-location .location-title {
+	font-family: var(--fontHeading);
+}
+
+.footer-newsletter p {
+	font-family: var(--fontHeading);
+	font-size: 14px;
+	margin: 5px 0;
+}
+
+.footer-newsletter a {
+	font-family: var(--font);
+	font-size: 13px;
+}
+
 .footer-container .footer-arrow a {
 	font-size: 48px;
 	color: #e4a853;
@@ -302,7 +317,8 @@ nav ul li a:hover {
 }
 
 .footer-container .footer-arrow a:hover {
-	color: #c48a40;
+	color: var(--white);
+	cursor: pointer;
 }
 
 .footer-details {
@@ -439,6 +455,12 @@ nav ul li a:hover {
 .grid-item img {
 	width: 100%;
 	border-radius: 10px;
+	transition: transform 0.3s;
+}
+
+.grid-item img:hover {
+	cursor: pointer;
+	transform: translateY(-5px);
 }
 
 /* The Modal (background) */
