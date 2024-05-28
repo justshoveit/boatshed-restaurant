@@ -136,9 +136,11 @@ nav ul li a:hover {
 	gap: 50px;
 }
 
-.hero p {
-	font-size: calc(1.325rem + 2vw);
+.hero-title {
+	font-size: 2.5rem;
+	font-family: var(--fontHeading);
 	margin-bottom: 20px;
+	color: var(--white);
 	text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
 }
 
@@ -185,6 +187,16 @@ nav ul li a:hover {
 	cursor: pointer;
 	animation-name: bounce;
 	-moz-animation-name: bounce;
+}
+
+.section-title,
+.dish-title,
+.footer-title,
+.location-title {
+	font-size: 2rem;
+	font-family: var(--fontHeading);
+	color: var(--blue);
+	margin-bottom: 10px;
 }
 
 .about-us {
