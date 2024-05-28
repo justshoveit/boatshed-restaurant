@@ -460,3 +460,61 @@ nav ul li a:hover {
 	font-family: var(--font);
 	color: var(--white);
 }
+
+.services-section {
+	background-color: var(--black);
+	color: var(--white);
+	padding: 60px 0;
+	text-align: center;
+}
+
+.services-section .container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.services-section .section-title {
+	font-size: 2.5rem;
+	font-family: var(--fontHeading);
+	margin-bottom: 100px;
+	color: var(--white);
+}
+
+.services-grid {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 100px;
+}
+
+.service {
+	max-width: 300px;
+	text-align: left;
+}
+
+.service-title {
+	font-size: 1.5rem;
+	font-family: var(--fontHeading);
+	margin-bottom: 10px;
+	color: var(--white);
+}
+
+.services-button {
+	background-color: transparent;
+	color: var(--white);
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	border: var(--white) 2px solid;
+	font-family: var(--fontBold);
+	padding: 12px 15px;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 36px;
+	text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.services-button:hover {
+	background-color: var(--white);
+	text-shadow: 3px 2px 3px transparent;
+	color: var(--black);
+}
