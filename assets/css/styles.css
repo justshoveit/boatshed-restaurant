@@ -266,7 +266,6 @@ nav ul li a:hover {
 .footer-container .footer-contact p {
 	font-family: var(--fontHeading);
 	font-size: 48px;
-	/* nice bottom border yellowish */
 	border-bottom: 5px solid #e4a853;
 	border-radius: 10px;
 }
