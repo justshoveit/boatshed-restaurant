@@ -76,7 +76,7 @@ header {
 }
 
 .logo {
-	margin: 15px 25px 0 25px;
+	margin: 20px 25px 0px 25px;
 	width: 100px;
 	display: inline-block;
 }
@@ -93,6 +93,7 @@ nav ul {
 
 nav ul li {
 	margin: 0 15px;
+	min-width: 150px;
 }
 
 nav ul li a {
