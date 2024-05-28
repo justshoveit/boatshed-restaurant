@@ -190,9 +190,7 @@ nav ul li a:hover {
 }
 
 .section-title,
-.dish-title,
-.footer-title,
-.location-title {
+.dish-title {
 	font-size: 2rem;
 	font-family: var(--fontHeading);
 	color: var(--blue);
@@ -271,9 +269,8 @@ nav ul li a:hover {
 	font-family: var(--fontHeading);
 	font-size: 48px;
 	/* nice bottom border yellowish */
-	border-bottom: 2px solid #e4a853;
+	border-bottom: 5px solid #e4a853;
 	border-radius: 10px;
-	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .footer-container .footer-arrow a {
