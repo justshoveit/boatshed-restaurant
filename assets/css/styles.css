@@ -209,26 +209,39 @@ nav ul li a:hover {
 }
 
 .featured-dishes {
-	margin: 0;
-	padding: 20px;
+	padding: 40px 20px;
 	background: var(--white);
 	color: var(--bodyText);
-	font-family: var(--fontHeading);
+	text-align: center;
 }
 
 .featured-dishes .container {
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .dishes {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	gap: 100px;
 	margin-top: 20px;
 }
 
 .dish {
 	text-align: center;
-	width: 45%;
+	background-color: var(--lightGrey);
+	max-width: 350px;
+	padding: 20px 40px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	transition: transform 0.3s;
+
+	border-radius: 10px;
+	margin-bottom: 50px;
+}
+
+.dish:hover {
+	transform: translateY(-5px);
 }
 
 .dish img {
@@ -238,9 +251,20 @@ nav ul li a:hover {
 	margin-bottom: 10px;
 }
 
+.dish-title {
+	font-family: var(--fontHeading);
+	font-size: 1.5rem;
+	color: var(--white);
+}
+
+.dish p {
+	margin-top: 50px;
+	color: var(--white);
+}
+
 .custom-footer {
-	background-color: #1a1a1a;
-	color: #ffffff;
+	background-color: var(--black);
+	color: var(--white);
 }
 
 .footer-container {
