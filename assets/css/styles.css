@@ -194,8 +194,6 @@ nav ul li a:hover {
 	font-size: 2rem;
 	font-family: var(--fontHeading);
 	margin-bottom: 10px;
-	align-items: center;
-	text-align: center;
 }
 
 .about-us {
