@@ -19,15 +19,18 @@
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About Us</a></li>
-						<li><a href="menu.html">Menu</a></li>
-
+						<li>
+							<a
+								href="https://theboatshedpyrmont.com.au/wp-content/uploads/2024/05/ONLINE-MENU-21.05.24.pdf"
+								>Menu</a
+							>
+						</li>
 						<a href="index.html">
 							<img
 								src="assets/images/home-logo.png"
 								alt="TheBoatShed Logo"
 								class="logo" />
 						</a>
-
 						<li><a href="events.html">Events</a></li>
 						<li><a href="gallery.html">Gallery</a></li>
 						<li><a href="contact.html">Contact</a></li>
@@ -42,8 +45,23 @@
 				id="contact-page"
 				class="contact-page">
 				<div class="container">
-					<h2>Contact Us</h2>
-					<p>Form Here</p>
+					<span class="section-title">Contact Us</span>
+					<form
+						action="mailto:info@theboatshed.com"
+						method="post"
+						enctype="text/plain">
+						<label for="name">Name:</label>
+						<input type="text" id="name" name="name" required />
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" required />
+						<label for="message">Message:</label>
+						<textarea
+							id="message"
+							name="message"
+							rows="4"
+							required></textarea>
+						<button type="submit">Send</button>
+					</form>
 				</div>
 			</section>
 		</main>
@@ -51,10 +69,10 @@
 		<footer class="custom-footer">
 			<div class="footer-container">
 				<div class="footer-content">
-					<p>HEARD<br />ENOUGH?</p>
+					<p>HEARD ENOUGH?</p>
 				</div>
 				<div class="footer-contact">
-					<p>Contact us</p>
+					<p class="footer-title">Contact us</p>
 				</div>
 				<div class="footer-arrow">
 					<a href="contact.html">→</a>
@@ -66,7 +84,7 @@
 				</div>
 				<div class="footer-location">
 					<div>
-						<h3>LONDON</h3>
+						<span class="location-title">LONDON</span>
 						<p>
 							<a href="mailto:newbusiness@weareimpero.com"
 								>newbusiness@weareimpero.com</a
@@ -80,7 +98,7 @@
 						<p><a href="#">SEE ON MAP →</a></p>
 					</div>
 					<div>
-						<h3>BUENOS AIRES</h3>
+						<span class="location-title">BUENOS AIRES</span>
 						<p>
 							<a href="mailto:buenosaires@weareimpero.com"
 								>buenosaires@weareimpero.com</a

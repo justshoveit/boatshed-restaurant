@@ -193,12 +193,12 @@ nav ul li a:hover {
 .dish-title {
 	font-size: 2rem;
 	font-family: var(--fontHeading);
-	color: var(--blue);
 	margin-bottom: 10px;
+	align-items: center;
+	text-align: center;
 }
 
 .about-us {
-	color: var(--lightGrey);
 	margin: 40px 0;
 	padding: 20px;
 	background: var(--black);
@@ -301,7 +301,7 @@ nav ul li a:hover {
 }
 
 .footer-brand p {
-	font-family: 'Trend Slab Four', sans-serif;
+	font-family: var(--fontBold);
 	font-size: 24px;
 }
 
@@ -313,7 +313,7 @@ nav ul li a:hover {
 }
 
 .footer-location h3 {
-	font-family: 'Trend Slab One', sans-serif;
+	font-family: var(--fontHeading);
 	font-size: 18px;
 	margin-bottom: 10px;
 }
